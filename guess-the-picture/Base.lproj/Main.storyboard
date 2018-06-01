@@ -18,7 +18,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lor-kJ-uaI">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lor-kJ-uaI" userLabel="Button1">
                                 <rect key="frame" x="87" y="97" width="200" height="100"/>
                                 <state key="normal" image="us"/>
                             </button>
@@ -44,9 +44,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="DN3-bV-ndb"/>
                     <connections>
+                        <outlet property="button1" destination="Lor-kJ-uaI" id="ryr-Se-3eH"/>
                         <outlet property="button2" destination="o8Z-d0-xnH" id="0p1-BV-cPy"/>
                         <outlet property="button3" destination="DoX-ZP-bH4" id="5Sk-uk-cJl"/>
-                        <outlet property="flag1" destination="Lor-kJ-uaI" id="1Jz-Tq-KUV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
